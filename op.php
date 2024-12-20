@@ -17,12 +17,12 @@
 //  2. Assignment operators
  echo "exponentiation " .$a**$b ."<br>";
  $p=5; $q=3;
- echo "Addition: ".$p+=$q."<br>";
- echo "Subtraction: ".$p-=$q."<br>";
- echo "multiplication: ".$p*=$q."<br>";
- echo "division: ".$p/=$q."<br>";
- echo "modulas: ".$p%=$q."<br>";
- echo "exoponential: ".$p**=$q ."<br>";
+ echo "Addition: ".($p+=$q)."<br>";
+ echo "Subtraction: ".($p-=$q)."<br>";
+ echo "multiplication: ".($p*=$q)."<br>";
+ echo "division: ".($p/=$q)."<br>";
+ echo "modulas: ".($p%=$q)."<br>";
+ echo "exoponential: ".($p**=$q)."<br>";
  // 3. Comparison operators
  $s=5; $p=8;
  echo "Equal: ".($s==$p)."<br>";
@@ -31,17 +31,5 @@
  echo "Greater than: ".($s>$p)."<br>";
  echo "Less than: ".($s<$p)."<br>";
  echo "Greater than or equal to: ".($s>=$p)."<br>";
- echo "Less than or equal to: ".($s<=$p)."<br>";
-
- 
- 
-
-
-
-
-
-
-
-
-
+ echo "Less than or equal to: ".($s<=$p)."<br>"; 
 ?>
